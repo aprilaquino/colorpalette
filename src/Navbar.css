@@ -31,7 +31,7 @@
 .rc-slider-handle,
 .rc-sider-handle:active,
 .rc-sider-handle:focus,
-.rc-slider-handke:hover{
+.rc-slider-handle:hover{
 	background-color: #089000 !important;
 	outline: none;
 	border: 2px solid #089000 !important;
@@ -46,6 +46,7 @@
 	height: 8px;
 }
 
-.slider-container{
-	
+.select-container{
+	margin-left:auto;
+	margin-right: 1rem;
 }
