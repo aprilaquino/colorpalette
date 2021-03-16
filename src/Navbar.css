@@ -16,13 +16,42 @@
 	align-items:center;
 }
 
+/* @media screen and (max-width: 1200px) {
+  .ColorBox  {
+  		width: 25%;
+  }
+	.SingleColorPalette .ColorBox{
+	width: 20%;
+}
+}
 
-
+@media screen and (max-width: 900px) {
+  .ColorBox  {
+  		width: 50%;
+	  	height: 10%;
+  }	
+	.SingleColorPalette .ColorBox{
+	width:50%;
+	height: 20%;
+	}
+} */
 .slider{
 	width: 350px;
 	margin: 0 10px;
 	display: inline-block;
 }
+
+@media screen and (max-width: 900px) {
+	.logo {
+		display: none;
+	}
+	
+	.slider {
+		width: 150px;
+	}
+}
+
+
 
 .rc-slider-track{
 	background-color: transparent !important;
